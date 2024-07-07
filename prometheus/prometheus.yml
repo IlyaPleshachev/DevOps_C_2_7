@@ -35,8 +35,3 @@ scrape_configs:
       - targets: [cadvisor:8080]
         labels:
           alias: "cadvisor"
-
-#  - job_name: windows pc
-#    scrape_interval: 5s
-#    static_configs:
-#      - targets: [192.168.1.105:9182]
